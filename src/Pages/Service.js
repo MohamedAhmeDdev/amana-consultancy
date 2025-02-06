@@ -1,4 +1,5 @@
 import React from 'react'
+import  {Link} from 'react-router-dom'
 import MotionSection from '../component/Motion';
 
 function Service() {
@@ -12,6 +13,7 @@ function Service() {
               <h1 class="text-4xl font-serif font-medium mb-4">Our Services</h1>
               <p class="text-gray-600 text-lg">We offer comprehensive consulting solutions tailored to your business needs. Our expertise spans across multiple domains to help you achieve sustainable growth.</p>
             </div>
+ 
             </div>
           </MotionSection>
       </div>
@@ -22,7 +24,8 @@ function Service() {
        <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <MotionSection threshold={0.6} transitionDelay={0.1}>
-          <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl shadow-sm hov
+          er:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-lightbulb h-6 w-6 text-navy-700">
                 <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
@@ -58,6 +61,21 @@ function Service() {
                 <span className="text-sm text-gray-600">Performance metrics and KPI tracking</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
           </div>
           </MotionSection>
           
@@ -96,11 +114,28 @@ function Service() {
                 <span className="text-sm text-gray-600">Digital tools implementation</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
+            
           </div>
           </MotionSection>
 
           <MotionSection threshold={0.6} transitionDelay={0.1}>
-          <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl shadow-sm hov
+          er:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chart-line h-6 w-6 text-navy-700">
                 <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
@@ -135,11 +170,27 @@ function Service() {
                 <span className="text-sm text-gray-600">Competitive benchmarking</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
           </div>
           </MotionSection>
 
           <MotionSection threshold={0.6} transitionDelay={0.1}>
-          <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl shadow-sm hov
+          er:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign h-6 w-6 text-navy-700"><line x1="12" x2="12" y1="2" y2="22"></line>
               <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
@@ -173,11 +224,27 @@ function Service() {
                 <span className="text-sm text-gray-600">Cost optimization</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
           </div>
           </MotionSection>
 
           <MotionSection threshold={0.6} transitionDelay={0.1}>
-          <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl shadow-sm hov
+          er:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings h-6 w-6 text-navy-700">
               <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
@@ -212,11 +279,27 @@ function Service() {
                 <span className="text-sm text-gray-600">Operational efficiency</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
           </div>
           </MotionSection>
 
           <MotionSection threshold={0.6} transitionDelay={0.1}>
-          <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl shadow-sm hov
+          er:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-6 w-6 text-navy-700">
               <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle>
@@ -251,6 +334,21 @@ function Service() {
                 <span className="text-sm text-gray-600">Culture transformation</span>
               </li>
             </ul>
+            {/* <div className="pt-4 border-t border-gray-100">
+            <Link to="services">
+              <div className="text-sm font-medium text-navy-700 hover:text-red-500  flex items-center">
+                  <p> Read More</p>
+                   <svg
+                     xmlns="http://www.w3.org/2000/svg" width="24"  height="24"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="lucide lucide-arrow-right ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+              </div>
+              </Link>
+            </div> */}
           </div>
           </MotionSection>
 

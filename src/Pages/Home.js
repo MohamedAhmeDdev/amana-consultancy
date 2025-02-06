@@ -6,24 +6,6 @@ function Home() {
   return (
     <div>
       <div className="min-h-screen flex flex-col">
-        <nav className="bg-white border-b border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between h-16">
-              <div className="flex items-center cursor-pointer">
-                <span className="text-2xl font-serif text-navy-700">Consulto</span>
-              </div>
-              <div className="flex space-x-8">
-                <button className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-navy-600">Home</button>
-                <button className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-navy-600">About</button>
-                <button className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-navy-600">Services</button>
-                <button className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-navy-600">FAQ</button>
-                <button className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 hover:text-navy-600">Contact</button>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-
         <main className="flex-grow">
           <div className="relative bg-navy-50 py-24 overflow-hidden">
             <div className="absolute inset-0 opacity-10">
@@ -47,7 +29,7 @@ function Home() {
                     We help businesses navigate challenges and seize opportunities through expert consulting services and data-driven insights.
                   </p>
                   <div className="flex space-x-4">
-                    <Link to='/Services'>
+                    <Link to='/services'>
                       <button className="bg-white border-btn-primary border-2 text-navy-700 px-4 py-2 font-bold rounded-md flex items-center">
                           Our Services
                           <svg
@@ -170,7 +152,7 @@ function Home() {
                 </div>
               </div>
               <div class="text-center mt-12">
-                <Link to='/Services'>
+                <Link to='/services'>
                     <button class="bg-white border-btn-primary border text-navy-700 px-4 py-2 font-medium rounded-md inline-flex items-center">
                       View All Services <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                     </button>
